@@ -4,9 +4,9 @@ body{
     background-color: grey;
 }
 h2{
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid white;
     text-align: left;
-    color: purple;
+    color: white;
 }
 h3{
     text-decoration: underline;
@@ -20,16 +20,16 @@ h3{
 }
 
 .bubble-text-left{
-    background:#139ee0; 
-    color:#fff; 
+    background: beige; 
+    color: black; 
     padding:5px 5px 5px 5px; 
     border-radius:3px ; 
     text-align: left;
     
 }
 .bubble-text-right{
-    background:purple; 
-    color:#fff; 
+    background:burlywood; 
+    color:black; 
     padding:5px 5px 5px 5px; 
     border-radius:3px ; 
     text-align: right;
@@ -41,15 +41,16 @@ display: grid;
 grid-template-columns: 1fr auto 1fr;
 background-color: grey;
 padding : 10px;
+color: white;
 
 
 
 }
 .photo {
 
-    background-color: white;
+    background-color: salmon;
     grid-column: 1;
-    text-align: left;
+    text-align: right;
     border: 3px solid #fff;
     -webkit-border-radius: 20px 20px 0px 20px;
     -moz-border-radius: 20px 20px 0px 20px;
@@ -63,18 +64,23 @@ padding : 10px;
     max-width: 100%;
 }
 .name{
-    text-align: right;
+    text-align: Left;
+    padding-left: 10px;
     
 }
-.coordonnée{
+.name h3{
 
+    text-decoration: none;
+}
+.coordonnée{
+    color: white;
     grid-column: 2;
     text-align: left;
     padding: 50px;
 }
 
 .about{
-
+    color: white;
     grid-column: 3;
     text-align: justify;
     padding: 50px;
@@ -98,7 +104,7 @@ padding : 10px;
     -moz-border-radius: 20px 0px 0px 0px;
     border-radius: 20px 0px 0px 0px;
     padding: 5px;
-    background-color: white;
+    background-color: salmon;
     text-align: center;
     padding: 5% 10% 5% 10%;
 }
@@ -113,7 +119,7 @@ padding : 10px;
     -moz-border-radius: 20px 0px 0px 0px;
     border-radius: 20px 0px 0px 0px;
     padding: 5px;
-    background-color: white;
+    background-color: salmon;
     padding: 5% 10% 5% 10%;
 }
 /*---Bloc Travail---*/
@@ -125,7 +131,7 @@ padding : 10px;
     -moz-border-radius: 0px 20px 0px 0px;
     border-radius: 0px 20px 0px 0px;
     padding: 5px;
-    background-color: white;
+    background-color: salmon;
     padding: 5% 10% 5% 10%;
     
 }
@@ -138,7 +144,7 @@ padding : 10px;
     -webkit-border-radius: 0px 20px 0px 20px;
     -moz-border-radius: 0px 20px 0px 20px;
     border-radius: 0px 20px 0px 20px;
-    background-color: white;
+    background-color: salmon;
     padding: 5% 10% 5% 10%;
     
 }
@@ -150,7 +156,7 @@ padding : 10px;
     -webkit-border-radius: 0px 20px 0px 0px;
     -moz-border-radius: 0px 20px 0px 0px;
     border-radius: 0px 20px 0px 0px;
-    background-color: white;
+    background-color: salmon;
     padding: 5% 10% 5% 10%;
  
 
@@ -165,7 +171,7 @@ padding : 10px;
     -moz-border-radius: 20px 0px 20px 0px;
     border-radius: 20px 0px 20px 0px;
     padding: 5% 10% 5% 10%;
-    background-color: white;
+    background-color: salmon;
 
 
 }
